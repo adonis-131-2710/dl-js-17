@@ -29,7 +29,7 @@ body {
     justify-content: center;
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    transition: width 1s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: width 1.5s cubic-bezier(0.23, 1, 0.32, 1);
     overflow: hidden;
 }
 .nav.active {
@@ -42,7 +42,7 @@ body {
     padding: 0;
     margin: 0;
     width: 0;
-    transition: width 1s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: width 1.5s cubic-bezier(0.23, 1, 0.32, 1);
     opacity: 0;
 }
 .nav.active ul {
@@ -51,7 +51,7 @@ body {
 }
 .nav ul li {
     transform: rotateY(180deg);
-    transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: transform 1.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .nav.active ul li {
     transform: rotateY(0deg);
@@ -72,7 +72,7 @@ body {
     position: relative;
     height: 30px;
     width: 30px;
-    transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: transform 1.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .nav.active .icon {
     transform: rotate(720deg); 
@@ -84,7 +84,7 @@ body {
     position: absolute;
     top: 10px;
     left: 5px;
-    transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: transform 1.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .icon .line2 {
     top: auto;
@@ -108,7 +108,7 @@ body {
         margin: 0;
         width: 0;
         opacity: 0;
-        transition: width 1.2s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.8s;
+        transition: width 1.5s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.8s;
         white-space: nowrap; 
     }
     .nav.active ul {
@@ -119,7 +119,7 @@ body {
     }
     .nav ul li {
         transform: rotateY(180deg);
-        transition: transform 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+        transition: transform 1.5s cubic-bezier(0.23, 1, 0.32, 1);
     }
     .nav.active ul li {
         transform: rotateY(0deg);
@@ -139,7 +139,7 @@ body {
         position: relative;
         height: 30px;
         width: 30px;
-        transition: transform 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+        transition: transform 1.5s cubic-bezier(0.23, 1, 0.32, 1);
         flex-shrink: 0; 
     }
     .nav.active .icon {
